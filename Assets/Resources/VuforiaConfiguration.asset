@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AW6jsL//////AAAAGbCNr0qpk0xqrX5N4ri1OGM5e0w4+FKxD5UqrC47NF/x2WSj6ulNg8QDFSTC41V89btg51d6DdZm/TXK+tu08GCln9MSQnlElysOQjw1Hdjzici/WdDPgcx3kAKBM7EYYEl1xDBWMKv/0PmnvuA7g92T3oM8rnwkpR83miD7nJIXDW8ErQ8jvM1TXpUliVGYpLgrmqpp0ZK0xm9rRrw/hgbrTgSA0b5jU/tnI5UavspOgPkjKRvjQlQTWTq1lolkAzFJzV2oHobr+1rAD+489rkH98YTY9D8CAFTgMdh/8igGSVxR024Uq0wfE81PGrmaTLJQ1zg2jDSHavSdfip92FzziT0dzNHhLxpgdK24gh0
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 2
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
@@ -43,8 +43,10 @@ MonoBehaviour:
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
   databaseLoad:
-    dataSetsToLoad: []
-    dataSetsToActivate: []
+    dataSetsToLoad:
+    - MagicAR
+    dataSetsToActivate:
+    - MagicAR
   videoBackground:
     clippingMode: 0
     matteShader: {fileID: 4800000, guid: f84e93cca971cda47a225f4c6a4156c9, type: 3}
